@@ -1,4 +1,3 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,8 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import static io.opentelemetry.sdk.logs.data.Body.string;
 
 public class SeleniumTest {
     public static ChromeOptions options;
@@ -50,10 +47,5 @@ public class SeleniumTest {
 
         driver.close();
 
-
-
-
     }
-
-
 }
